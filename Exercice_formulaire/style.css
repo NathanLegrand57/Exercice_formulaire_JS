@@ -1,0 +1,119 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Modification du container principal pour le placement */
+
+.container1 {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-top: 1px;
+}
+
+.container1 h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Modification du petit container contenant tout les inputs */
+
+.container2 {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.container2 input { 
+    border: solid 0.2px;
+    border-radius: 4px;
+}
+
+.container2 label {
+    opacity: 70%;
+}
+
+/* Modification des inputs de type text */
+
+.container2 input[type=text] {
+    width: 100%;
+    font-size: 15px;
+    height: 30px;
+}
+
+#nom {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#prenom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Modification des inputs number pour la date de naissance */
+
+#jour {
+    margin-top: 10px;
+}
+
+.naissance input {
+    margin-bottom: 5px;
+}
+
+#annee {
+    margin-bottom: 10px;
+}
+
+.naissance p {
+    font-size: 15px;
+    margin-top: 0px;
+    color: red;
+}
+
+/* Modification de la liste déroulante */
+
+.container2 select {
+    width: 406px;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+/* Modification de la taille du rectangle pour l'input radio */
+
+fieldset {
+    width: 378px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Modification de l'input message */
+
+.container2 textarea {
+    resize: none;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+/* Modification du bouton submit */
+
+.container2 input[type=submit] {
+    padding: 10px;
+    width: 406px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}
+
+.container2 input[type=submit]:hover {
+    cursor: pointer;
+}
